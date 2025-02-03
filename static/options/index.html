@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title>@xurxorguezz_</title>
+
+    <link rel="icon" href="/images/logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet" href="../style/master.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/options.css">
+    <!-- Embed -->
+    <script src="../resources/nebula.bundle.js"></script>
+
+    <meta name="theme-color" content="#5a189a">
+    <meta property=og:title content=xurxo>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thatonewebsite.mathhelpbeta.gq/images/fav.png" />
+    <meta property="og:image" content="https://thatonewebsite.mathhelpbeta.gq/images/fav.png" />
+    <meta property="og:description" content="Busca lo que quieras libremente!" />
+</head>
+
+<body>
+    <!-- Scripts -->
+    <script src="../uv/uv.bundle.js"></script>
+
+    <script src="../uv/uv.config.js"></script>
+
+    <div>
+
+    </div>
+
+    <div class="container">
+
+        <div id="navbar" style='background: none;'>
+            <div onclick="window.location ='/';" class="bk-btn">
+                <div onclick="window.location ='/';" class="bk-btn-triangle"></div>
+                <div onclick="window.location ='/';" class="bk-btn-bar"></div>
+            </div>
+            <img src='../images/logo.png' id="thumbImg" style='height: 90%; margin-left: 2%; border-radius: 5px; '>
+            <h1 class="nebHeader" style='margin-left: .5%; font-family: "Roboto"; color: #A3CEF1'>@xurxorguezz_</h1>
+        </div>
+        <div id="notifhere">
+
+        </div>
+        <div class="setting">
+
+
+            <div class="settings-cont">
+                <p class="name">Modo Secreto</p>
+                <p class="description">Para las extensiones.</p>
+
+                <input id="undefined" type="checkbox" onclick="saveIc();toggleNoGG()">
+                <label for="undefined"></label>
+            </div>
+        </div>
+        <div class="settings-cont">
+            <p class="name"> Proxy <b class='new-tag'></b> </p>
+            <p class="description"> Elige el proxy que quieras.</p>
+            <span class="custom-dropdown big">
+         <a onclick="unsavedChanges();"> <select class="dropdown" id="proxySwitcher">    
+                <option value="uv">UltraViolet</option>
+            </select>
+        </a>  
+       
+        </span>
+            <button onclick="saveIc();switchProxy()" class="button-save">Guardar!</button>
+
+
+
+        </div>
+
+        <div class="settings-cont">
+            <p class="name"> Temas <b class='new-tag'></b> </p>
+            <p class="description"> Elige el tema que prefieras</p>
+
+            <span class="custom-dropdown big">
+         <a onclick="unsavedChanges();"> <select  class="dropdown" id="themeSwitcher">    
+                <option value="dark">Oscuro</option>
+                <option value="light">Claro</option>  
+                <option value="custom"></option>  
+            </select>
+        </a>  
+       
+        </span>
+            <button onclick="saveIc();switchTheme();" class="button-save">Guardar!</button>
+
+
+        </div>
+    </div>
+
+
+
+    <div id='sidebar'>
+    </div>
+
+    <p class="stamp">V2 | Xurxo Rodriguez Copyright (&copy;)</p>
+
+    </div>
+
+</body>
+
+</html>
