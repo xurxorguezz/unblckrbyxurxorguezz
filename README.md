@@ -58,3 +58,7 @@ For support, email xurxorguezz@gmail.com
 Copyright Xurxo Rodríguez 2025 - Present
 <br>
 This project uses the MIT license.
+
+# Thanks
+
+Nebula Services, for [his open source project](https://github.com/NebulaServices/Nebula)
