@@ -1,5 +1,5 @@
 {
-    "name": "nebulaweb",
+    "name": "unblckr",
     "version": "7.0.4",
     "description": "Explore the web. Freely. ",
     "type": "module",
@@ -12,8 +12,8 @@
         "math",
         "science"
     ],
-    "author": "Nebula Services",
-    "license": "Copyright Nebula Services. All Rights Reserved.",
+    "author": "Xurxo's Services",
+    "license": "MIT License.",
     "dependencies": {
         "@tomphttp/bare-server-node": "^1.2.6",
         "bare-server-node": "github:tomphttp/bare-server-node",
